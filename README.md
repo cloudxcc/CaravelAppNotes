@@ -6,6 +6,6 @@ Application Note WBHT: Fixing Caravel Wishbone and Logic Analyzer Interface Hold
 
 Please contact me for comments and corrections:
 
-Tobias Strauch, Munich, tobias@cloudx.cc
+Tobias Strauch, Munich, tobias at cloudx dot cc
 
 
