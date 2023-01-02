@@ -77,4 +77,4 @@ Figure 4: Handling the WB reset signal.
 
 The WB reset signal (wb_rst) is driven by a register insode the MGMT core, which is clocked with the negative edge of the WB clock (wb_clk). To apply the same idea of using opposite clock edges, the wb_rst signal can be captured with the positive edge inside the USER core. This has the advantage, that the root of the reset tree within the USER core is clocked by the opposite edge compared to the target registers of this tree. Figure 4 shows such an alternative for an asynchronous reset, but the same arguments can be made for synchronous reset as well.
 
-The reset tree is not balanced in the OL flow. The reset tree insertion tree was smaller in a large design testcase than half of the minimal wb_clk period.
+The reset tree is not balanced in the Openlane flow. The reset tree insertion delay was smaller in a large design testcase than half of the minimal wb_clk period.
